@@ -1,0 +1,62 @@
+<nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">GameStore</a>
+
+    <a class="navbar-brand">
+      <img src="https://img.icons8.com/external-xnimrodx-blue-xnimrodx/64/000000/external-3d-graphic-design-xnimrodx-blue-xnimrodx.png" width="100" height="50" alt="">
+    </a>
+
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header bg-dark">
+        <h5 class="offcanvas-title bg-dark title" id="offcanvasNavbarLabel">GameStore - Menu</h5>
+        <button type="button" class="btn-close text-reset bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Jogos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pacotes de Expansão</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Carinho de compras
+            </a>
+            <!-- <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown"> -->
+            <ul class="dropdown-menu checkbox-menu allow-focus" aria-labelledby="offcanvasNavbarDropdown">
+              <li><a class="dropdown-item" href="#">Visualizar Carrinho</a></li>
+              <li><a class="dropdown-item" href="#">Consultar Histórico de Pedidos...</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <!-- <li>
+                <a class="dropdown-item" href="#">Tornar Último Pedido Recorrente</a>
+              </li> -->
+
+              <li >
+                <label>
+                  <input type="checkbox"> Tornar Último Pedido Recorrente
+                </label>
+              </li>
+
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Ex: Tekken 2" aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit">Buscar...</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+<br><br><br><br>
